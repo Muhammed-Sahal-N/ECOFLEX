@@ -1,0 +1,490 @@
+@media(max-width:992px){
+
+    nav{
+    
+    display:none;
+    
+    }
+    
+    .search-box{
+    
+    display:none;
+    
+    }
+    
+    .hero h1{
+    
+    font-size:50px;
+    
+    line-height:55px;
+    
+    }
+    
+    .hero{
+    
+    height:600px;
+    
+    }
+    
+    }
+    
+    @media(max-width:768px){
+    
+    .hero{
+    
+    height:500px;
+    
+    }
+    
+    .hero-content{
+    
+    width:100%;
+    
+    }
+    
+    .hero h1{
+    
+    font-size:42px;
+    
+    line-height:48px;
+    
+    }
+    
+    .hero p{
+    
+    font-size:18px;
+    
+    }
+    
+    .icons{
+    
+    gap:12px;
+    
+    }
+    
+    .logo img{
+    
+    width:120px;
+    
+    }
+    
+    }
+    
+    @media(max-width:576px){
+    
+    .hero{
+    
+    padding:0 20px;
+    
+    }
+    
+    .hero h1{
+    
+    font-size:34px;
+    
+    line-height:38px;
+    
+    }
+    
+    .hero button{
+    
+    padding:12px 25px;
+    
+    }
+    
+    .top-bar{
+    
+    font-size:10px;
+    
+    }
+    
+    }
+
+@media(max-width:992px){
+
+    .promo-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .product-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .product-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .promo-card{
+
+        height:360px;
+
+    }
+
+    .promo-content{
+
+        left:20px;
+
+        bottom:20px;
+
+    }
+
+    .promo-content h2{
+
+        font-size:24px;
+
+        line-height:30px;
+
+    }
+
+    @media (max-width:768px){
+
+        .section-title{
+            flex-direction: column;
+            gap: 15px;
+        }
+    
+        .section-title a{
+            position: static;
+        }
+    
+        .section-title h2{
+            text-align: center;
+        }
+    
+    }
+
+}
+@media(max-width:992px){
+
+    .feature-grid{
+    
+    grid-template-columns:repeat(2,1fr);
+    
+    }
+    
+    .testimonial-wrapper{
+    
+    flex-direction:column;
+    
+    }
+    
+    }
+    
+    @media (max-width:992px){
+
+        .statistics-grid{
+    
+            grid-template-columns:repeat(2,1fr);
+    
+        }
+    
+    }
+    
+    @media (max-width:576px){
+    
+        .statistics-grid{
+    
+            grid-template-columns:1fr;
+    
+        }
+    
+        .stat-card{
+    
+            padding:15px;
+    
+        }
+    
+    }
+    @media(max-width:576px){
+    
+    .feature-grid{
+    
+    grid-template-columns:1fr;
+    
+    }
+    
+    .section-heading h2{
+    
+    font-size:24px;
+    
+    }
+    
+    .testimonial-content h2{
+    
+    font-size:28px;
+    
+    line-height:38px;
+    
+    }
+    
+    }
+    @media(max-width:992px){
+
+        .story-grid{
+        
+        grid-template-columns:1fr;
+        
+        }
+        
+        }
+        
+        @media(max-width:576px){
+        
+        .story-box,
+        .newsletter-box{
+        
+        padding:35px;
+        
+        }
+        
+        .story-box h2,
+        .newsletter-box h2{
+        
+        font-size:30px;
+        
+        line-height:38px;
+        
+        }
+        
+        .newsletter-box form{
+        
+        flex-direction:column;
+        
+        gap:15px;
+        
+        }
+        
+        }
+        @media(max-width:992px){
+
+            .style-grid{
+            
+            grid-template-columns:repeat(2,1fr);
+            
+            }
+            
+            }
+            
+            @media(max-width:576px){
+            
+            .style-grid{
+            
+            grid-template-columns:1fr;
+            
+            }
+            
+            .style-heading h2{
+            
+            font-size:28px;
+            
+            }
+            
+            }
+            @media(max-width:992px){
+
+                .arrival-grid{
+                
+                grid-template-columns:repeat(2,1fr);
+                
+                }
+                
+                }
+                
+                @media(max-width:576px){
+                
+                .arrival-grid{
+                
+                grid-template-columns:1fr;
+                
+                }
+                
+                .new-arrival-header h2{
+                
+                font-size:34px;
+                
+                }
+                
+                .product-img{
+                
+                height:250px;
+                
+                }
+                
+                }
+                 @media(max-width:992px){
+
+                    .insta-gallery{
+                    
+                    grid-template-columns:repeat(4,1fr);
+                    
+                    }
+                    
+                    }
+                    
+                    @media(max-width:576px){
+                    
+                    .insta-gallery{
+                    
+                    grid-template-columns:repeat(2,1fr);
+                    
+                    }
+                    
+                    .insta-header h2{
+                    
+                    font-size:28px;
+                    
+                    }
+                    
+                    }
+                    @media(max-width:992px){
+
+                        .footer-top-grid{
+                        
+                        grid-template-columns:repeat(2,1fr);
+                        
+                        }
+                        
+                        .feature-box{
+                        
+                        border-bottom:1px solid rgba(255,255,255,.12);
+                        
+                        }
+                        
+                        }
+                        
+                        @media(max-width:576px){
+                        
+                        .footer-top-grid{
+                        
+                        grid-template-columns:1fr;
+                        
+                        }
+                        
+                        .feature-box{
+                        
+                        border-right:none;
+                        
+                        padding:22px;
+                        
+                        }
+                        
+                        .feature-text h3{
+                        
+                        font-size:22px;
+                        
+                        }
+                        
+                        .feature-text p{
+                        
+                        font-size:14px;
+                        
+                        }
+                        
+                        }
+                        @media(max-width:992px){
+
+                            .footer-left{
+                            
+                            width:100%;
+                            
+                            margin-bottom:50px;
+                            
+                            }
+                            
+                            .footer-logo{
+                            
+                            width:190px;
+                            
+                            }
+                            
+                            }
+                            
+                            @media(max-width:576px){
+                            
+                            .footer-social{
+                            
+                            justify-content:flex-start;
+                            
+                            flex-wrap:wrap;
+                            
+                            }
+                            
+                            .footer-description{
+                            
+                            font-size:15px;
+                            
+                            }
+                            
+                            .footer-address{
+                            
+                            flex-direction:row;
+                            
+                            }
+                            
+                            }
+                            @media(max-width:992px){
+
+                                .footer-wrapper{
+                                
+                                flex-direction:column;
+                                
+                                }
+                                
+                                .footer-links{
+                                
+                                margin-left:0;
+                                
+                                margin-top:50px;
+                                
+                                grid-template-columns:repeat(2,1fr);
+                                
+                                }
+                                
+                                }
+                                
+                                @media(max-width:576px){
+                                
+                                .footer-links{
+                                
+                                grid-template-columns:1fr;
+                                
+                                }
+                                
+                                }
+                                @media(max-width:992px){
+
+                                    .footer-right{
+                                    
+                                    width:100%;
+                                    
+                                    margin-top:50px;
+                                    
+                                    }
+                                    
+                                    }
+                                    
+                                    @media(max-width:576px){
+                                    
+                                    .payment-icons{
+                                    
+                                    flex-wrap:wrap;
+                                    
+                                    }
+                                    
+                                    .showroom-card{
+                                    
+                                    padding:22px;
+                                    
+                                    }
+                                    
+                                    }

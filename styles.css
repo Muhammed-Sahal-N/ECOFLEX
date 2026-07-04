@@ -2078,30 +2078,3 @@ nav ul li{
     font-weight:500;
 
 }
-@media(max-width:768px){
-
-    .footer-bottom-wrapper{
-    
-        flex-direction:column;
-    
-        gap:20px;
-    
-        text-align:center;
-    
-    }
-    
-    .footer-services{
-    
-        flex-direction:column;
-    
-        gap:15px;
-    
-    }
-    
-    .service-item{
-    
-        justify-content:center;
-    
-    }
-    
-    }

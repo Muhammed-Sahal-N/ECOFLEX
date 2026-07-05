@@ -247,7 +247,7 @@
         
         }
         .newsletter-features{
-            padding-right:50px;
+            grid-template-columns:2fr;
         }
         .newsletter{
             

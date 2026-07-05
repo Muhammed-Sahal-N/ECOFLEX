@@ -247,7 +247,7 @@
         
         }
         .newsletter-features{
-            grid-template-columns:2fr;
+            gap:1px;
         }
         .newsletter{
             

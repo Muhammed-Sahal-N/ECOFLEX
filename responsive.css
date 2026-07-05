@@ -246,8 +246,11 @@
         padding:35px;
         
         }
+        .newsletter{
+            width:350px;
+        }
         .our-story{
-            width:400px;
+            width:350px;
         }
         
         .story-box h2,

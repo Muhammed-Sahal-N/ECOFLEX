@@ -249,6 +249,9 @@
         .newsletter-features{
             gap:1px;
         }
+        .story-newsletter{
+            padding:0px;
+        }
         .newsletter{
             padding:0px;
             width:350px;

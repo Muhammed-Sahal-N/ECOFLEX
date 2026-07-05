@@ -250,11 +250,12 @@
             gap:1px;
         }
         .newsletter{
-            
+            padding:0px;
             width:350px;
         }
         .our-story{
             width:350px;
+            padding:0px;
         }
         
         .story-box h2,
